@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="KS55324_REGION" directorySegmentName="seg_0" id="8197091E-F38A-79AE-112E-84A65ED7FD84">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<schemaObject>0E44C1E9-5D06-99C1-92DF-7E7592976D39</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F20C7A2B-AA36-C1B8-9704-12E3B61AD149</segment>
+<tableSpace>8BEBBE0A-D00D-E2E4-A50A-71A5705B6E39</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_ID" id="A4790B21-46C3-0C8B-B651-CF3D08469F07">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAZIV" id="DBED080C-753B-A921-AF95-E50861151581">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DRZAVA_ID" id="FB8FC0D2-5DA8-2E5A-0672-977FECD58536">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="KS55324_FK_REGION_DRZAVA" id="5673D3EB-DE9A-ECAF-2AE2-90FD707D96D7">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:49 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="KS55324_REGION_PK" id="85D0F987-B76A-5AA1-D899-977AB161274C">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<schemaObject>0E44C1E9-5D06-99C1-92DF-7E7592976D39</schemaObject>
+<segment>44CE2282-3B2F-E26F-AF4C-F131E1210135</segment>
+<tableSpace>8BEBBE0A-D00D-E2E4-A50A-71A5705B6E39</tableSpace>
+<indexSegment>44CE2282-3B2F-E26F-AF4C-F131E1210135</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

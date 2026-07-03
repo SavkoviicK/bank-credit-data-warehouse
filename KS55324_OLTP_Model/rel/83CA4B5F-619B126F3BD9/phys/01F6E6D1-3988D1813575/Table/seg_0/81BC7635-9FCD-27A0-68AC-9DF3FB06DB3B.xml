@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="KS55324_KREDIT" directorySegmentName="seg_0" id="81BC7635-9FCD-27A0-68AC-9DF3FB06DB3B">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<schemaObject>0E44C1E9-5D06-99C1-92DF-7E7592976D39</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F20C7A2B-AA36-C1B8-9704-12E3B61AD149</segment>
+<tableSpace>8BEBBE0A-D00D-E2E4-A50A-71A5705B6E39</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STATUS" id="0E894592-32B4-688D-E125-0D75791F309C">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIP_KREDITA_ID" id="0FA09948-429F-932C-1486-82CEC4C07682">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KREDIT_ID" id="308DFC6F-1CA4-B149-B63C-5371716ADBD6">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATUM_ODOBRENJA" id="3F6DA2CD-DCAC-5173-FA88-CC2D0C20EC69">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROK_MESECI" id="78E6CB50-373B-ACA4-836A-82EC15A6D1A3">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KLIJENT_ID" id="B5BC12D1-280E-D338-1F5B-5E8C7E353B40">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSLOVNICA_ID" id="C6D64AEC-DE25-231A-770E-AB291FFD2B1C">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IZNOS" id="EA34F36D-1196-0C70-C680-641B10EFBE6C">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="KS55324_FK_KREDIT_POSLOVNICA" id="5E652AF5-6378-D409-4114-1844126048D5">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:49 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="KS55324_FK_KREDIT_TIP" id="B53DCC4F-C453-8B70-6832-6A6E7B89AE2C">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:49 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="KS55324_FK_KREDIT_KLIJENT" id="E1FBBE03-E9D3-C388-34F9-714304A6359D">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:49 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="KS55324_KREDIT_PK" id="F25EAF27-B2A3-5AB3-914F-B1B9739832A4">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<schemaObject>0E44C1E9-5D06-99C1-92DF-7E7592976D39</schemaObject>
+<segment>44CE2282-3B2F-E26F-AF4C-F131E1210135</segment>
+<tableSpace>8BEBBE0A-D00D-E2E4-A50A-71A5705B6E39</tableSpace>
+<indexSegment>44CE2282-3B2F-E26F-AF4C-F131E1210135</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

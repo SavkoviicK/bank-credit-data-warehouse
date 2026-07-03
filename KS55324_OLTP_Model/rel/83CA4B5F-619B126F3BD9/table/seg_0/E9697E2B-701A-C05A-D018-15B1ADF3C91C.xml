@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9697E2B-701A-C05A-D018-15B1ADF3C91C" schemaObject="0E44C1E9-5D06-99C1-92DF-7E7592976D39" name="KS55324_KLIJENT">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>SEDS</sourceObjSchema>
+<sourceObjName>KS55324_KLIJENT</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KLIJENT_ID" id="A40AEB94-B6FF-8A97-0949-98C846162A34">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_KLIJENT</sourceObjSchema>
+<sourceObjName>KLIJENT_ID</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IME" id="55A4AEF7-FEC8-EA00-0ED5-4B369C445F38">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_KLIJENT</sourceObjSchema>
+<sourceObjName>IME</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREZIME" id="27F81DB7-E62F-74D8-55A0-46167B66DE29">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_KLIJENT</sourceObjSchema>
+<sourceObjName>PREZIME</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POL" id="D1B30EBD-F251-7857-69BA-BE36BDF3BFA4">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_KLIJENT</sourceObjSchema>
+<sourceObjName>POL</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<constraintName>KS55324_CK_KLIJENT_POL</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;M&apos;" description=""/>
+<valueDef value="&apos;Z&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATUM_RODJ" id="E219335F-940A-BF3E-2E3C-F3DEDFEDEA9B">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_KLIJENT</sourceObjSchema>
+<sourceObjName>DATUM_RODJ</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="7B7412F7-C091-5480-8823-1FFF7C477B5F">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_KLIJENT</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFON" id="5CE3FC6F-96EE-4B58-E05F-8F171857F3C2">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_KLIJENT</sourceObjSchema>
+<sourceObjName>TELEFON</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRAD_ID" id="0DA2C79F-69E5-882E-F590-1614BBF60C01">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_KLIJENT</sourceObjSchema>
+<sourceObjName>GRAD_ID</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18B42A5B-1735-F540-8DA8-258E82EDB60E" referredColumn="77A84FF2-3FF0-E00D-6DB7-56747350C7E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A41AF57-E1FB-E5E7-C2BB-C82A3E52B967" schemaObject="0E44C1E9-5D06-99C1-92DF-7E7592976D39" name="KS55324_KLIJENT_PK">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>SEDS</sourceObjSchema>
+<sourceObjName>SYS_C0032603</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A40AEB94-B6FF-8A97-0949-98C846162A34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C6EA390-4C56-065C-9EEA-9E48C95626FB" name="KS55324_FK_KLIJENT_GRAD">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:49 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DA2C79F-69E5-882E-F590-1614BBF60C01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

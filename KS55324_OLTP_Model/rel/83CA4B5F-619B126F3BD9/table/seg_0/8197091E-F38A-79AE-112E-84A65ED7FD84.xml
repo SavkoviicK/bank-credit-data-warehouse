@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8197091E-F38A-79AE-112E-84A65ED7FD84" schemaObject="0E44C1E9-5D06-99C1-92DF-7E7592976D39" name="KS55324_REGION">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>SEDS</sourceObjSchema>
+<sourceObjName>KS55324_REGION</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REGION_ID" id="A4790B21-46C3-0C8B-B651-CF3D08469F07">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_REGION</sourceObjSchema>
+<sourceObjName>REGION_ID</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZIV" id="DBED080C-753B-A921-AF95-E50861151581">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_REGION</sourceObjSchema>
+<sourceObjName>NAZIV</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRZAVA_ID" id="FB8FC0D2-5DA8-2E5A-0672-977FECD58536">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_REGION</sourceObjSchema>
+<sourceObjName>DRZAVA_ID</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAF90C57-E26D-85A3-4A7F-222BCF028CBA" referredColumn="963E3C19-7F72-8BC5-CE24-6F97B1C003B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85D0F987-B76A-5AA1-D899-977AB161274C" schemaObject="0E44C1E9-5D06-99C1-92DF-7E7592976D39" name="KS55324_REGION_PK">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>SEDS</sourceObjSchema>
+<sourceObjName>SYS_C0032586</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4790B21-46C3-0C8B-B651-CF3D08469F07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5673D3EB-DE9A-ECAF-2AE2-90FD707D96D7" name="KS55324_FK_REGION_DRZAVA">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:49 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB8FC0D2-5DA8-2E5A-0672-977FECD58536"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

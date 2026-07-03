@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="30DBF940-0996-5DE3-ECBB-9AA9843EC04C" containerWithKeyObject="B5741CE0-D33C-090E-F998-432496FD8A30" localFKIndex="F3CD2E42-02C3-B68B-5F08-E10C93C6B403" name="KS55324_FK_GRAD_REGION">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>SEDS</sourceObjSchema>
+<sourceObjName>KS55324_FK_GRAD_REGION</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:49 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<referredTableLongName>SEDS.KS55324_REGION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8197091E-F38A-79AE-112E-84A65ED7FD84</referredTableID>
+<keyObject>85D0F987-B76A-5AA1-D899-977AB161274C</keyObject>
+<referredKeyID>85D0F987-B76A-5AA1-D899-977AB161274C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>REGION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

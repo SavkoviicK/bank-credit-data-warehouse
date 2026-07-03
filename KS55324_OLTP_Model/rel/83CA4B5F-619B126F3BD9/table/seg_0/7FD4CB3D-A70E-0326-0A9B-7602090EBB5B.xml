@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7FD4CB3D-A70E-0326-0A9B-7602090EBB5B" schemaObject="0E44C1E9-5D06-99C1-92DF-7E7592976D39" name="KS55324_OTPLATA">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>SEDS</sourceObjSchema>
+<sourceObjName>KS55324_OTPLATA</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OTPLATA_ID" id="9DD5CB81-1EBF-07DF-8A16-6111C902DE03">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_OTPLATA</sourceObjSchema>
+<sourceObjName>OTPLATA_ID</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KREDIT_ID" id="8CCFD06D-88F1-71BA-DA0F-91B8765FF9F4">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_OTPLATA</sourceObjSchema>
+<sourceObjName>KREDIT_ID</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD5E1D0F-130F-7D67-6C6A-1BB43413698C" referredColumn="308DFC6F-1CA4-B149-B63C-5371716ADBD6"/>
+</associations>
+</Column>
+<Column name="DATUM_RATE" id="618BEBC7-733A-FE5D-5129-E8E951DC0E02">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_OTPLATA</sourceObjSchema>
+<sourceObjName>DATUM_RATE</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IZNOS_RATE" id="E2AB17AB-2275-4A6E-6CC5-834216C48403">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_OTPLATA</sourceObjSchema>
+<sourceObjName>IZNOS_RATE</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IZNOS_UPLACENO" id="682C959C-4A1D-0F14-E59F-92D6C3868929">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_OTPLATA</sourceObjSchema>
+<sourceObjName>IZNOS_UPLACENO</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATUM_UPLATE" id="5602A976-EF7C-1F31-532B-7A5498E41974">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_OTPLATA</sourceObjSchema>
+<sourceObjName>DATUM_UPLATE</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KASNJENJE_DANA" id="30BC4B84-8EBC-ABE5-DB0C-6B0C0EABF40F">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_OTPLATA</sourceObjSchema>
+<sourceObjName>KASNJENJE_DANA</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EBA0B9F-1DDE-DE80-8045-F79FAECC7E6F" schemaObject="0E44C1E9-5D06-99C1-92DF-7E7592976D39" name="KS55324_OTPLATA_PK">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>SEDS</sourceObjSchema>
+<sourceObjName>SYS_C0032626</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DD5CB81-1EBF-07DF-8A16-6111C902DE03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="006633D5-72FF-A3E8-519A-E712721033B1" name="KS55324_FK_OTPLATA_KREDIT">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:49 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CCFD06D-88F1-71BA-DA0F-91B8765FF9F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

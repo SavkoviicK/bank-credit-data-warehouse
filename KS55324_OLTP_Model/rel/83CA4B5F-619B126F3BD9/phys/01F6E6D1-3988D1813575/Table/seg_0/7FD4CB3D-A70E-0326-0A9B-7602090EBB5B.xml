@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="KS55324_OTPLATA" directorySegmentName="seg_0" id="7FD4CB3D-A70E-0326-0A9B-7602090EBB5B">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<schemaObject>0E44C1E9-5D06-99C1-92DF-7E7592976D39</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F20C7A2B-AA36-C1B8-9704-12E3B61AD149</segment>
+<tableSpace>8BEBBE0A-D00D-E2E4-A50A-71A5705B6E39</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="KASNJENJE_DANA" id="30BC4B84-8EBC-ABE5-DB0C-6B0C0EABF40F">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATUM_UPLATE" id="5602A976-EF7C-1F31-532B-7A5498E41974">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATUM_RATE" id="618BEBC7-733A-FE5D-5129-E8E951DC0E02">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IZNOS_UPLACENO" id="682C959C-4A1D-0F14-E59F-92D6C3868929">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KREDIT_ID" id="8CCFD06D-88F1-71BA-DA0F-91B8765FF9F4">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OTPLATA_ID" id="9DD5CB81-1EBF-07DF-8A16-6111C902DE03">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IZNOS_RATE" id="E2AB17AB-2275-4A6E-6CC5-834216C48403">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="KS55324_FK_OTPLATA_KREDIT" id="006633D5-72FF-A3E8-519A-E712721033B1">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:49 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="KS55324_OTPLATA_PK" id="1EBA0B9F-1DDE-DE80-8045-F79FAECC7E6F">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<schemaObject>0E44C1E9-5D06-99C1-92DF-7E7592976D39</schemaObject>
+<segment>44CE2282-3B2F-E26F-AF4C-F131E1210135</segment>
+<tableSpace>8BEBBE0A-D00D-E2E4-A50A-71A5705B6E39</tableSpace>
+<indexSegment>44CE2282-3B2F-E26F-AF4C-F131E1210135</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="KS55324_TIP_KREDITA" directorySegmentName="seg_0" id="E0143801-9333-7ED1-D894-BCB1A95A9F86">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<schemaObject>0E44C1E9-5D06-99C1-92DF-7E7592976D39</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F20C7A2B-AA36-C1B8-9704-12E3B61AD149</segment>
+<tableSpace>8BEBBE0A-D00D-E2E4-A50A-71A5705B6E39</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAZIV" id="29AF5821-C8F3-27E3-06DB-57C0146F9A23">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIP_KREDITA_ID" id="52CA2133-0C60-3498-B4C4-AABAD1E927DF">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMINALNA_KAMATA" id="68B82E1A-D4D5-A818-BC42-85008D80BE28">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIP" id="B763839C-A4B3-E6A8-4603-BAAA1AF5B7E7">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="KS55324_TIP_KREDITA_PK" id="FFA8E8AD-BD9F-873A-D54E-D8DFC3340847">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<schemaObject>0E44C1E9-5D06-99C1-92DF-7E7592976D39</schemaObject>
+<segment>44CE2282-3B2F-E26F-AF4C-F131E1210135</segment>
+<tableSpace>8BEBBE0A-D00D-E2E4-A50A-71A5705B6E39</tableSpace>
+<indexSegment>44CE2282-3B2F-E26F-AF4C-F131E1210135</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

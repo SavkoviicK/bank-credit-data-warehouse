@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5741CE0-D33C-090E-F998-432496FD8A30" schemaObject="0E44C1E9-5D06-99C1-92DF-7E7592976D39" name="KS55324_GRAD">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>SEDS</sourceObjSchema>
+<sourceObjName>KS55324_GRAD</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GRAD_ID" id="77A84FF2-3FF0-E00D-6DB7-56747350C7E7">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_GRAD</sourceObjSchema>
+<sourceObjName>GRAD_ID</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZIV" id="AFBF7ED6-58E0-D8C4-1423-F81BDB9263A7">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_GRAD</sourceObjSchema>
+<sourceObjName>NAZIV</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POST_BROJ" id="A168A4AD-ABCC-2748-4EC5-A0753FF36639">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_GRAD</sourceObjSchema>
+<sourceObjName>POST_BROJ</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_ID" id="00A37B4B-64AC-AE47-4557-E80930182F09">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>KS55324_GRAD</sourceObjSchema>
+<sourceObjName>REGION_ID</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30DBF940-0996-5DE3-ECBB-9AA9843EC04C" referredColumn="A4790B21-46C3-0C8B-B651-CF3D08469F07"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74511C35-EB85-44FB-BD22-12691581F8E7" schemaObject="0E44C1E9-5D06-99C1-92DF-7E7592976D39" name="KS55324_GRAD_PK">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>SEDS</sourceObjSchema>
+<sourceObjName>SYS_C0032590</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:48 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77A84FF2-3FF0-E00D-6DB7-56747350C7E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3CD2E42-02C3-B68B-5F08-E10C93C6B403" name="KS55324_FK_GRAD_REGION">
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:49 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00A37B4B-64AC-AE47-4557-E80930182F09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

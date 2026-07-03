@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DC67EEB7-0FB2-AABF-9D18-5EE6A4A07FB5" containerWithKeyObject="81BC7635-9FCD-27A0-68AC-9DF3FB06DB3B" localFKIndex="5E652AF5-6378-D409-4114-1844126048D5" name="KS55324_FK_KREDIT_POSLOVNICA">
+<sourceConnName>seds</sourceConnName>
+<sourceObjSchema>SEDS</sourceObjSchema>
+<sourceObjName>KS55324_FK_KREDIT_POSLOVNICA</sourceObjName>
+<createdBy>kristina</createdBy>
+<createdTime>2026-02-25 23:29:49 UTC</createdTime>
+<ownerDesignName>KS55324_OLTP_Model</ownerDesignName>
+<referredTableLongName>SEDS.KS55324_POSLOVNICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FBA2D86D-0806-52E2-8D32-15374103D73D</referredTableID>
+<keyObject>20AD1BD8-3974-1A6F-2039-697ABB443B8D</keyObject>
+<referredKeyID>20AD1BD8-3974-1A6F-2039-697ABB443B8D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>POSLOVNICA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
