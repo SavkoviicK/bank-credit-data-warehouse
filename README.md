@@ -145,6 +145,7 @@ Dokumentacija sadrži:
 - Analizu rezultata
 - Zaključak
 
+> **Napomena:** GitHub-ov ugrađeni pregled PDF dokumenata može nepravilno prikazati pojedine srpske karaktere (č, ć, š, ž, đ). Za ispravan prikaz preporučuje se preuzimanje dokumenta i otvaranje u PDF čitaču.
 ---
 
 # Ključni koncepti
